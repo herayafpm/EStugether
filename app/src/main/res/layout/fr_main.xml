@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:id="@+id/judulApp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-Stugether"
+            android:gravity="center_horizontal"
+            android:textSize="40sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ELEARNING STUDY TOGETHER"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:layout_below="@id/judulApp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:textSize="16sp"
+            android:id="@+id/btnDaftar"
+            android:layout_height="wrap_content"
+            android:text="Daftar"/>
+        <!--<TextView-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" -->
+            <!--android:text="Atau"-->
+            <!--android:textSize="18sp"-->
+            <!--android:gravity="center_horizontal"/>-->
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:textSize="16sp"
+            android:id="@+id/btnMasuk"
+            android:layout_height="wrap_content"
+            android:text="Masuk"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

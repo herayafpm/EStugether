@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ubahKelas"
+        android:orderInCategory="100"
+        android:title="Ubah kelas"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/keluarKelas"
+        android:orderInCategory="100"
+        android:title="Keluar kelas"
+        app:showAsAction="never"/>
+</menu>

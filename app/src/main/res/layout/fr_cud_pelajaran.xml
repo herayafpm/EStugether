@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvJudulPelajaran"
+        android:layout_alignBaseline="@id/etJudulPelajaran"
+        android:text="Judul Pelajaran"/>
+    <EditText
+        android:id="@+id/etJudulPelajaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/tvJudulPelajaran"/>
+    <TextView
+        android:layout_alignBaseline="@id/etPembahasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPembahasan"
+        android:text="Pembahasan"
+        android:layout_below="@id/tvJudulPelajaran"/>
+    <EditText
+        android:id="@+id/etPembahasan"
+        android:maxLines="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/etJudulPelajaran"
+        android:layout_toEndOf="@id/tvPembahasan"
+        android:layout_below="@id/etJudulPelajaran"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/btnSimpan"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etPembahasan"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBatal"
+        android:text="Batal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnSimpan"/>
+
+</RelativeLayout>

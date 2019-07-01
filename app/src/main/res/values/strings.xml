@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">E - Stugether</string>
+    <string name="title_activity_setelah_login">SetelahLogin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_beranda">Beranda</string>
+    <string name="menu_semua_kelas">Semua Kelas</string>
+    <string name="menu_keluar">Keluar</string>
+    <string name="materi">Materi</string>
+    <string name="pelajaran">Pelajaran</string>
+    <string name="anggota">Anggota</string>
+    <string name="title_activity_kelas">KelasActivity</string>
+    <string name="Materi">Materi</string>
+    <string name="Pelajaran">Pelajaran</string>
+    <string name="Anggota">Anggota</string>
+    <string name="title_activity_cud_kelas">CudKelasActivity</string>
+</resources>

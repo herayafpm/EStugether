@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul Materi"
+        android:layout_alignBaseline="@id/etJudulMateri"
+        android:id="@+id/tvJudulMateri"/>
+    <EditText
+        android:id="@+id/etJudulMateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvJudulMateri"
+        />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tvJudulMateri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvUploadMateri"
+        android:text="@string/materi"/>
+    <Button
+        android:layout_alignBaseline="@id/tvUploadMateri"
+        android:layout_alignStart="@id/etJudulMateri"
+        android:layout_below="@id/etJudulMateri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUploadMateri"
+        android:text="Upload File"/>
+    <TextView
+        android:id="@+id/tvLink"
+        android:layout_toRightOf="@id/btnUploadMateri"
+        android:layout_alignBaseline="@id/btnUploadMateri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="link File"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:id="@+id/btnSimpan"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnUploadMateri"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBatal"
+        android:text="Batal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnSimpan"/>
+</RelativeLayout>

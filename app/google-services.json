@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "460745680782",
+    "firebase_url": "https://estugether.firebaseio.com",
+    "project_id": "estugether",
+    "storage_bucket": "estugether.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460745680782:android:14fb91f04549804e",
+        "android_client_info": {
+          "package_name": "com.kelompok11.e_stugether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460745680782-v8vj7noh41m0af4lfau6plemdncde4uh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelompok11.e_stugether",
+            "certificate_hash": "4eff5e302574b8b09f1a1c99d2a4824b6c08227e"
+          }
+        },
+        {
+          "client_id": "460745680782-en6tnhln73vsdgs2ru3ibbtc5o8ltq5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9syoFD1o4OFmcQnqLz6e54K9eXxSvxJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460745680782-en6tnhln73vsdgs2ru3ibbtc5o8ltq5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
